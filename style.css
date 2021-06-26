@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: rgb(20, 20, 20);
+}
+/* header */
+header{
+    background: url(images/space-invaders-4761336__340.webp);
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+header nav a{
+    color: #bababa;
+    text-decoration: none;
+    margin-right: 10px;
+}
+header .principal{
+    margin-top: 40px;
+}
+header nav a:hover{
+    color: #fff;
+    border-bottom: 1px solid #919191;
+}
+header .principal h4{
+    padding: 20px;
+    margin-top: -20px;
+}
+/* presentation */
+.premieres-presentations{
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.premieres-presentations .gauche{
+    width: 60%;
+    margin-right: 10px;
+}
+.premieres-presentations .droite img{
+    border-radius: 50%;
+    width: 200px;
+}
+@media screen and (max-width:810px) {
+    .premieres-presentations .gauche{
+        width: 100%;
+    }
+    .premieres-presentations .droite{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* offres */
+.offres{
+    padding: 30px;
+    background: url(images/like-6301600__340.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(221, 221, 221);
+}
+.offres h1,.offres p{
+    text-align: center;
+    text-size-adjust: 35px;
+}
+.offres .offres-cartes{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.offres .offres-cartes .carte{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.offres .carte img{
+    height: 60px;
+}
+/* footer */
+footer{
+    background-color: #282e25;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .social-media{
+    display: flex;
+}
+footer .social-media a{
+    margin-right: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+footer .social-media a img{
+    width: 50px;
+}
+
